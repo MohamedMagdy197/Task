@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite parallel="none" name="Failed suite [Suite]">
+  <test parallel="none" name="Test(failed)">
+    <classes>
+      <class name="TEST.AboutusTest">
+        <methods>
+          <include name="aboutustest"/>
+        </methods>
+      </class> <!-- TEST.AboutusTest -->
+      <class name="TEST.LoginTest">
+        <methods>
+          <include name="stop"/>
+          <include name="startDriver"/>
+        </methods>
+      </class> <!-- TEST.LoginTest -->
+      <class name="TEST.RegisterTest">
+        <methods>
+          <include name="registertest"/>
+        </methods>
+      </class> <!-- TEST.RegisterTest -->
+      <class name="TEST.ProductTest">
+        <methods>
+          <include name="product"/>
+        </methods>
+      </class> <!-- TEST.ProductTest -->
+      <class name="TEST.ContactTest">
+        <methods>
+          <include name="contacttest"/>
+        </methods>
+      </class> <!-- TEST.ContactTest -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
